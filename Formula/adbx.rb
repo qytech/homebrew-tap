@@ -1,26 +1,26 @@
 class Adbx < Formula
   desc "Enhanced cross-platform ADB with session locking, broadcast, TUI logcat & MCP"
   homepage "https://github.com/Jax-Lifu/adbx-rs"
-  version "0.0.2"
+  version "0.0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Jax-Lifu/adbx-rs/releases/download/v0.0.2/adbx-v0.0.2-aarch64-apple-darwin.tar.gz"
-      sha256 "fb667568f4d7fcbf837fede837d1594889b631aadad302fc5f9d5114d58abb1d"
+      url "https://github.com/Jax-Lifu/adbx-rs/releases/download/v0.0.3/adbx-v0.0.3-aarch64-apple-darwin.tar.gz"
+      sha256 "13ca4c965fb1e159b922d3471e4bb32f3bc395fda7cc95b39dc6dba42395c5b0"
     else
-      url "https://github.com/Jax-Lifu/adbx-rs/releases/download/v0.0.2/adbx-v0.0.2-x86_64-apple-darwin.tar.gz"
-      sha256 "436887cd353f12828d6a9de6b3b42b5d1e35713dcd0cd31b84fc669ce83b71fe"
+      url "https://github.com/Jax-Lifu/adbx-rs/releases/download/v0.0.3/adbx-v0.0.3-x86_64-apple-darwin.tar.gz"
+      sha256 "277aec356042cfeb039bbb775e7548debfd605d50c0656e2961099cda1e68a8e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Jax-Lifu/adbx-rs/releases/download/v0.0.2/adbx-v0.0.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "129ce655a522f04bf14e3e87a0f0153837451e2eb32161e0a9d1028008982a46"
+      url "https://github.com/Jax-Lifu/adbx-rs/releases/download/v0.0.3/adbx-v0.0.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5023751e58576980aabca513876a16c253c529f66ed4a1d9bdb567f266060065"
     else
-      url "https://github.com/Jax-Lifu/adbx-rs/releases/download/v0.0.2/adbx-v0.0.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7586348569c9896231d0672e0cfb177531dc643e75b5b9cded4c07d9a4d2d824"
+      url "https://github.com/Jax-Lifu/adbx-rs/releases/download/v0.0.3/adbx-v0.0.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c9f8221372802dcd9411d80a06c8b54c964fd8139319f7878ee9df678807a012"
     end
   end
 
