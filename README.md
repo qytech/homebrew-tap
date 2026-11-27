@@ -1,7 +1,7 @@
 # homebrew-tap
 
-Homebrew tap for [`adbx`](https://github.com/Jax-Lifu/adbx-rs).
+Homebrew tap for [`adbx`](https://github.com/qytech/adbx-rs).
 
 ```bash
-brew install Jax-Lifu/tap/adbx
+brew install qytech/tap/adbx
 ```
