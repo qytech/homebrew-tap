@@ -1,26 +1,26 @@
 class Adbx < Formula
   desc "Enhanced cross-platform ADB with session locking, broadcast, TUI logcat & MCP"
   homepage "https://github.com/qytech/adbx-rs"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/qytech/adbx-rs/releases/download/v0.0.3/adbx-v0.0.3-aarch64-apple-darwin.tar.gz"
-      sha256 "13ca4c965fb1e159b922d3471e4bb32f3bc395fda7cc95b39dc6dba42395c5b0"
+      url "https://github.com/qytech/adbx-rs/releases/download/v0.0.4/adbx-v0.0.4-aarch64-apple-darwin.tar.gz"
+      sha256 "48c7e37cb790d1aa3d15947dfa0df208b56c5d4ec2f2f1b7c1177232fd3264bd"
     else
-      url "https://github.com/qytech/adbx-rs/releases/download/v0.0.3/adbx-v0.0.3-x86_64-apple-darwin.tar.gz"
-      sha256 "277aec356042cfeb039bbb775e7548debfd605d50c0656e2961099cda1e68a8e"
+      url "https://github.com/qytech/adbx-rs/releases/download/v0.0.4/adbx-v0.0.4-x86_64-apple-darwin.tar.gz"
+      sha256 "af09eb83a75521dd56c41870d95f50fd3bedee0285eda6b684003ab6632a573d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/qytech/adbx-rs/releases/download/v0.0.3/adbx-v0.0.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5023751e58576980aabca513876a16c253c529f66ed4a1d9bdb567f266060065"
+      url "https://github.com/qytech/adbx-rs/releases/download/v0.0.4/adbx-v0.0.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "058736cfda2c39e47bcce5370be6af243bd13fad508ec94e4b6a49fe94866700"
     else
-      url "https://github.com/qytech/adbx-rs/releases/download/v0.0.3/adbx-v0.0.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c9f8221372802dcd9411d80a06c8b54c964fd8139319f7878ee9df678807a012"
+      url "https://github.com/qytech/adbx-rs/releases/download/v0.0.4/adbx-v0.0.4-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8f1709513269729b05c507c660aae4ce3918437b703ae938f02e69f1dc49de5a"
     end
   end
 
